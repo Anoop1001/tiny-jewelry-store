@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NdCkMV0MSRSu+28ohXUnIDfFb/A8GOgOrv913lS0wH0QxKeEhR6CHmd7Bujg7S+1oMLgj3b7W9QE+1TCKRferg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anoop\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\anoop\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\anoop\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.1.4\\swashbuckle.aspnetcore.annotations.6.1.4.nupkg.sha512",
+    "C:\\Users\\anoop\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\anoop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\anoop\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

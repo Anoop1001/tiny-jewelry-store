@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jewellery.Printer\JewelleryStore.Printer.csproj" />
+    <ProjectReference Include="..\JewelleryStore.Contract\JewelleryStore.Contract.csproj" />
+    <ProjectReference Include="..\JewelleryStore.Data\JewelleryStore.Data.csproj" />
+    <ProjectReference Include="..\JewelleryStore.Models\JewelleryStore.Models.csproj" />
+  </ItemGroup>
+
+</Project>

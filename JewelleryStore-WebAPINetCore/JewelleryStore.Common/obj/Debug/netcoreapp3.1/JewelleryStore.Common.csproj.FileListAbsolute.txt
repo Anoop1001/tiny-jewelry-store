@@ -1,0 +1,9 @@
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\bin\Debug\netcoreapp3.1\JewelleryStore.Common.deps.json
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\bin\Debug\netcoreapp3.1\JewelleryStore.Common.dll
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\bin\Debug\netcoreapp3.1\JewelleryStore.Common.pdb
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.csproj.AssemblyReference.cache
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.AssemblyInfoInputs.cache
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.AssemblyInfo.cs
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.csproj.CoreCompileInputs.cache
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.dll
+C:\Projects\Siemens\tiny-jewelry-store\JewelleryStore\JewelleryStore.Common\obj\Debug\netcoreapp3.1\JewelleryStore.Common.pdb

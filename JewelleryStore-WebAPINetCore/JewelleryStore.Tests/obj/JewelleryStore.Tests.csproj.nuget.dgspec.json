@@ -1,0 +1,538 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Tests\\JewelleryStore.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\JewelleryStore.Printer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\JewelleryStore.Printer.csproj",
+        "projectName": "JewelleryStore.Printer",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\JewelleryStore.Printer.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj",
+        "projectName": "JewelleryStore.API",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj"
+              },
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\JewelleryStore.Business.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\JewelleryStore.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj",
+        "projectName": "JewelleryStore.Common",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj",
+        "projectName": "JewelleryStore.Contract",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj",
+        "projectName": "JewelleryStore.Data",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Common\\JewelleryStore.Common.csproj"
+              },
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj",
+        "projectName": "JewelleryStore.Models",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\JewelleryStore.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\JewelleryStore.Business.csproj",
+        "projectName": "JewelleryStore.Business",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\JewelleryStore.Business.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.SDK\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\JewelleryStore.Printer.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\Jewellery.Printer\\JewelleryStore.Printer.csproj"
+              },
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Contract\\JewelleryStore.Contract.csproj"
+              },
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Data\\JewelleryStore.Data.csproj"
+              },
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Models\\JewelleryStore.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Tests\\JewelleryStore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Tests\\JewelleryStore.Tests.csproj",
+        "projectName": "JewelleryStore.Tests",
+        "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Tests\\JewelleryStore.Tests.csproj",
+        "packagesPath": "C:\\Users\\anoop\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anoop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj": {
+                "projectPath": "C:\\Projects\\Siemens\\tiny-jewelry-store\\JewelleryStore-WebAPINetCore\\JewelleryStore.API\\JewelleryStore.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
