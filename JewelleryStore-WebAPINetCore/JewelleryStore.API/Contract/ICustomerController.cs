@@ -10,6 +10,6 @@ namespace JewelleryStore
     public interface ICustomerController
     {
         Task<CustomerCredentials> Login(CustomerLoginModel CustomerLogin);
-        Task<double> CalculatePrice([FromRoute] Guid customerId, IJewellery jewellery);
+        Task<double> CalculatePrice([FromRoute] Guid customerId, Gold jewellery);
     }
 }

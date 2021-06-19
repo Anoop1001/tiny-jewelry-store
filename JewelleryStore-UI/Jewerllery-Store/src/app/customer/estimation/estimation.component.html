@@ -1,1 +1,56 @@
-<p>estimation works!</p>
+<div class="container">
+    <div class="row centered-form">
+        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Welcome <small>{{userDetails ? userDetails.category : ''}}</small></h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    Gold Price :
+                                    <input type="number" name="first_name" id="first_name" class="form-control input-sm"
+                                        placeholder="Gold Price" [(ngModel)]="price">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    Weight:
+                                    <input type="number" name="weight" id="weight" class="form-control input-sm"
+                                        placeholder="Weight" [(ngModel)]="weight">
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    Total Price:
+                                    <input type="number" [disabled]="true" name="totalprice" id="totalprice" class="form-control input-sm"
+                                        placeholder="Total Price"  [(ngModel)]="totalPrice" >
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6" *ngIf="userDetails && userDetails.category == 'Previleged'">
+                                <div class="form-group">
+                                    Discount:
+                                    <input type="number" name="discount" [disabled]="true" id="discount" class="form-control input-sm"
+                                        placeholder="Discount" [(ngModel)]="userDetails.discount">%
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <button class="btn btn-info btn-block" (click)="onClickButton()">Calculate</button>
+                        <button class="btn btn-info btn-block" (click)="onPrint(1)">Print To Screen</button>
+                        <button class="btn btn-info btn-block" (click)="onPrint(2)">Print To File</button>
+                        <button class="btn btn-info btn-block" (click)="onPrint(3)">Print To Paper</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { EstimationComponent } from './customer/estimation/estimation.component';
 import { LoginComponent } from './customer/login/login.component';
 
-const routes: Routes = [{path : '', component :LoginComponent}, {path : '', component : EstimationComponent}];
+const routes: Routes = [{path : '', component :LoginComponent},
+ {path : 'estimation/:id', component : EstimationComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -18,4 +18,14 @@ export class JewelleryStoreApiService {
   {
       return this.http.post(this.baseUrl+"/login", loginData, httpOptions)
   }
+
+  getCustomer(id:string) : Observable<any>
+  {
+      return this.http.get(this.baseUrl+"/"+id, httpOptions)
+  }
+
+  getTotalPrice(id:string, data:any) : Observable<number>
+  {
+      return this.http.post<number>(this.baseUrl+"/price/"+id, data, httpOptions)
+  }
 }

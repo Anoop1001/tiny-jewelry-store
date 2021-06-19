@@ -30,8 +30,8 @@ namespace JewelleryStore
 
 
         [HttpPost]
-        [Route("price/{customerId:guid}")]
-        public async Task<double> CalculatePrice([FromRoute] Guid customerId, IJewellery jewellery)
+        [Route("price/{customerId:Guid}")]
+        public async Task<double> CalculatePrice([FromRoute] Guid customerId, Gold jewellery)
         {
             return await _priceCalculatorService.CalculatePriceForCustomer(customerId, jewellery);
         }

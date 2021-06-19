@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { JewelleryStoreApiService } from 'src/app/services/jewellery-store-api.service';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
   public userName:string="";
   public password:string="";
   public error:string ="";
-  constructor(private jewelleryService : JewelleryStoreApiService) { }
+  constructor(private jewelleryService : JewelleryStoreApiService, private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -20,7 +20,10 @@ export class LoginComponent implements OnInit {
       var userCredentials:UserCredential = new UserCredential(this.userName, this.password);
       this.jewelleryService.login(userCredentials).subscribe(x=>
         {
-
+          if(x)
+          {
+            this.router.navigate(['estimation', x.id ]);
+          }
         }, error =>{
 
         })

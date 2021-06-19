@@ -18,7 +18,7 @@ namespace JewelleryStore.API
         }
 
         [HttpPost]
-        [Route("print/printerType")]
+        [Route("printer/{printerType:int}")]
         [SwaggerOperation(Tags = new[] { "Subscribers"})]
         [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(object))]
         public async Task<object> Print(PrinterType printerType, object data)

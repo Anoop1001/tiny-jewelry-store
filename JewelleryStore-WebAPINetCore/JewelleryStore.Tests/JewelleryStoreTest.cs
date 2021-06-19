@@ -50,7 +50,7 @@ namespace JewelleryStore.Tests
         public async Task Get_Price_When_Valid_CustomerId_Jewellery_Returns_TotalPrice()
         {
             var customer = await Login_When_Valid_CredentialsPassed_Returns_Customer();
-            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery(100, 10));
+            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery(100, 10) as Gold);
             Assert.AreEqual(totalPrice, 1000);
         }
 
@@ -59,7 +59,7 @@ namespace JewelleryStore.Tests
         {
             var loggedInCustomer = await Login_When_Valid_CredentialsPassed_Returns_PrevilegedCustomer();
             var customer = (await customerController.GetCustomer(loggedInCustomer.Id)) as PrevilegedCustomer;
-            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery(100, 10));
+            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery(100, 10) as Gold);
             Assert.AreEqual(totalPrice, (100 * 10) - (10* customer.Discount));
         }
 
@@ -68,7 +68,7 @@ namespace JewelleryStore.Tests
         {
             var loggedInCustomer = await Login_When_Valid_CredentialsPassed_Returns_PrevilegedCustomer();
             var customer = (await customerController.GetCustomer(loggedInCustomer.Id)) as PrevilegedCustomer;
-            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery());
+            var totalPrice = await customerController.CalculatePrice(customer.Id, JewelleryFactory.CreateGoldJewellery() as Gold);
             Assert.AreEqual(totalPrice, 0);
         }
     }
